@@ -24,7 +24,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SaitamaRobot import arq
-from SaitamaRobot.utils.errors import capture_err
+from SaitamaRobot.utlis.errors import capture_err
 from SaitamaRobot import pbot as app
 
 
