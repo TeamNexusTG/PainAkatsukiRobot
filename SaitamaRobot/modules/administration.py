@@ -108,6 +108,7 @@ def promote(update: Update, context: CallbackContext) -> str:
 
 
 
+@run_async
 @connection_status
 @bot_admin
 @can_promote
