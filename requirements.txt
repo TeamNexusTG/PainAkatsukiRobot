@@ -8,8 +8,6 @@ feedparser
 future
 geopy
 git+https://github.com/starry69/python-markdown2.git
-#googletrans
-google_trans_new
 humanize
 jikanpy
 lxml
@@ -70,3 +68,4 @@ aiofiles
 uvloop
 python-dotenv
 heroku3
+gpytranslate
