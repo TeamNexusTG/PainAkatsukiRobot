@@ -224,9 +224,9 @@ def info(update: Update, context: CallbackContext):
         return
 
     rep = message.reply_text(
-        "<code>Finding Information In Akatsuki Databases...</code>", parse_mode=ParseMode.HTML)
+        "<code>Finding Information In Akatsuki Database...</code>", parse_mode=ParseMode.HTML)
 
-    text = (f"╒═══「<b>Information Found In Akatsuki Databases:</b> 」\n"
+    text = (f"╒═══「<b>AKATSUKI DATABASE INFO</b> 」\n"
             f"Identification Number: <code>{user.id}</code>\n"
             f"First Name: {html.escape(user.first_name)}")
 
