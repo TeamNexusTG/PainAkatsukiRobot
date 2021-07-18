@@ -20,157 +20,17 @@ News channel as at [PainRobot Updates](https://t.me/PainRobotUpdates)
  - This repo does not come with technical support, so DO NOT come to us asking help about deploy/console errors
 
 <details>
-  <summary>Steps to deploy on Heroku !! </summary>
+  <summary> Steps to deploy on Railway! </summary>
 
 ```
 Fill in all the details, Deploy!
-Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
-REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PAINBOI2008/PainRobot.git)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FPAINBOI2008%2FPainRobot&plugins=postgresql&envs=TOKEN%2CAPI_ID%2CAPI_HASH%2CSQLALCHEMY_DATABASE_URI%2COWNER_ID%2COWNER_USERNAME%2CSUPPORT_CHAT%2CEVENT_LOGS%2CJOIN_LOGGER%2CCASH_API_KEY%2CTIME_API_KEY%2CDEV_USERS%2Csw_api%2CSTRICT_GBAN%2CDRAGONS%2CDEMONS%2CTIGERS%2CWOLVES%2CNo_LOAD%2CBL_CHATS%2CALLOW_EXCL%2CENV%2CDONATION_LINK%2CDEL_CMDS%2CBAN_STICKER%2CWALL_API%2CREM_BG_API_KEY&optionalEnvs=SQLALCHEMY_DATABASE_URI%2CEVENT_LOGS%2CJOIN_LOGGER%2CCASH_API_KEY%2CTIME_API_KEY%2CDEV_USERS%2Csw_api%2CDRAGONS%2CDEMONS%2CTIGERS%2CWOLVES%2CNo_LOAD%2CBL_CHATS%2CALLOW_EXCL%2CDONATION_LINK%2CWALL_API%2CREM_BG_API_KEY&TOKENDesc=Your+bot+token.+Get+one+from+https%3A%2F%2Ft.me%2FBotFather+.&API_IDDesc=Get+API_ID+from+my.telegram.org%2C+used+for+telethon+based+modules.&API_HASHDesc=Get+API_HASH+from+my.telegram.org%2C+used+for+telethon+based+modules.+&SQLALCHEMY_DATABASE_URIDesc=Your+postgres+sql+db.+Don%27t+add+this+ENV+if+you+dont+have+one.&OWNER_IDDesc=Owner%27s+User+ID+as+an+integer.++Used+by+the+bot+to+identify+the+owner.+&OWNER_USERNAMEDesc=Your+username+without+the+%27%40%27&SUPPORT_CHATDesc=Your+bot%27s+support+chat+username+without+the+%27%40%27&EVENT_LOGSDesc=Event+logs+channel+to+note+down+important+bot+level+events.+Let+it+be+%27123456798%27+if+you+don%27t+have+one.&JOIN_LOGGERDesc=A+channel+where+bot+will+print+who+added+it+to+what+group%2C+useful+during+debugging+or+spam+handling.+Let+it+be+%27123456798%27+if+you+don%27t+have+one.&CASH_API_KEYDesc=Required+for+currency+converter.+Get+yours+from+https%3A%2F%2Fwww.alphavantage.co%2Fsupport%2F%23api-key&TIME_API_KEYDesc=Required+for+timezone+information.+Get+yours+from+https%3A%2F%2Ftimezonedb.com%2Fapi&DEV_USERSDesc=ID+of+users+who+are+Devs+of+your+bot+%28can+use+%2Fpy+etc.%29.&sw_apiDesc=Spamwatch+API+Token%2C+Get+one+from+https%3A%2F%2Ft.me%2FSpamWatchBot.&STRICT_GBANDesc=Enforce+gbans+across+new+groups+as+well+as+old+groups.+When+a+gbanned+user+talks%2C+he+will+be+banned.&DRAGONSDesc=A+space+separated+list+of+user+IDs+who+you+want+to+assign+as+sudo+users.&DEMONSDesc=A+space+separated+list+of+user+IDs+who+you+wanna+assign+as+support+users+%28gban+perms+only%29.&TIGERSDesc=A+space+separated+list+of+user+IDs+who+you+wanna+assign+as+tiger+users+%28can%27t+be+banned%2C+muted+and+warned%29.&WOLVESDesc=A+space+separated+list+of+user+IDs+who+you+want+to+assign+as+whitelisted+-+%28can%27t+be+banned+or+warned+with+your+bot%29.&No_LOADDesc=Names+of+the+modules+that+shouldn%27t+load.&BL_CHATSDesc=List+of+chats+you+want+blacklisted+from+your+bot.&ALLOW_EXCLDesc=Set+this+to+True+if+you+want+%27%21%27+to+be+a+command+prefix+along+with+%27%2F%27.+Recommended+is+True&ENVDesc=Set+this+to+%27ANYTHING%27+or+the+bot+will+crash.&DONATION_LINKDesc=Optional%3A+link+where+you+would+like+to+receive+donations.+If+you+are+a+noob%2C+better+leave+it+linking+to+paul&DEL_CMDSDesc=Set+this+to+%27True%27+if+you+want+to+delete+command+messages+from+users+who+don%27t+have+the+perms+to+run+that+command.+Recommend+is+%27True%27&BAN_STICKERDesc=ID+of+the+sticker+you+want+to+use+when+banning+people.&WALL_APIDesc=Required+for+%2Fwall.+Get+your%27s+from+https%3A%2F%2Fwall.alphacoders.com%2F&REM_BG_API_KEYDesc=API+key+from+https%3A%2F%2Fwww.remove.bg%2Fapi+for+removing+background+via+image+editor.+&EVENT_LOGSDefault=123456798&JOIN_LOGGERDefault=123456798&CASH_API_KEYDefault=-xyz&TIME_API_KEYDefault=-xyz&STRICT_GBANDefault=True&No_LOADDefault=cleaner+rss+connection&ALLOW_EXCLDefault=True&ENVDefault=ANYTHING)
 
 </details>  
-<details>
-  <summary>Steps to self Host!! </summary>
-
-  ## Setting up the bot (Read this before trying to use!):
-Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
-This is because markdown parsing is done by iterating through a dict, which is ordered by default in 3.6.
-
-  ### Configuration
-
-There are two possible ways of configuring your bot: a config.py file, or ENV variables.
-
-The preferred version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `SaitamaRobot` folder, alongside the `__main__.py` file. 
-This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of
-your other settings.
-
-It is recommended to import sample_config and extend the Config class, as this will ensure your config contains all
-defaults set in the sample_config, hence making it easier to upgrade.
-
-An example `config.py` file could be:
-```
-from SaitamaRobot.sample_config import Config
-
-class Development(Config):
-    OWNER_ID = 1483971607  # your telegram ID
-    OWNER_USERNAME = "nezuko_chan02"  # your telegram username
-    API_KEY = "1498917276:AAEWYIKwfqTatXNuvaEfBl5BLETL9llaDZM"  # your api key, as provided by the @botfather
-    SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
-    JOIN_LOGGER = '-1001321966293' # some group chat that your bot is a member of
-    USE_JOIN_LOGGER = True
-    DRAGONS = [1396244257, 998194558, 979499093, 781807433, 1234713106]  # List of id's for users which have sudo access to the bot.
-    LOAD = []
-    NO_LOAD = ['translation']
-```
-
-If you can't have a config.py file (EG on Heroku), it is also possible to use environment variables.
-So just go and read the config sample file. 
-
-  ### Python dependencies
-
-Install the necessary Python dependencies by moving to the project directory and running:
-
-`pip3 install -r requirements.txt`.
-
-This will install all the necessary python packages.
-
-  ### Database
-
-If you wish to use a database-dependent module (eg: locks, notes, userinfo, users, filters, welcomes),
-you'll need to have a database installed on your system. I use Postgres, so I recommend using it for optimal compatibility.
-
-In the case of Postgres, this is how you would set up a database on a Debian/ubuntu system. Other distributions may vary.
-
-- install postgresql:
-
-`sudo apt-get update && sudo apt-get install postgresql`
-
-- change to the Postgres user:
-
-`sudo su - postgres`
-
-- create a new database user (change YOUR_USER appropriately):
-
-`createuser -P -s -e YOUR_USER`
-
-This will be followed by you need to input your password.
-
-- create a new database table:
-
-`createdb -O YOUR_USER YOUR_DB_NAME`
-
-Change YOUR_USER and YOUR_DB_NAME appropriately.
-
-- finally:
-
-`psql YOUR_DB_NAME -h YOUR_HOST YOUR_USER`
-
-This will allow you to connect to your database via your terminal.
-By default, YOUR_HOST should be 0.0.0.0:5432.
-
-You should now be able to build your database URI. This will be:
-
-`sqldbtype://username:pw@hostname:port/db_name`
-
-Replace sqldbtype with whichever DB you're using (eg Postgres, MySQL, SQLite, etc)
-repeat for your username, password, hostname (localhost?), port (5432?), and DB name.
-
-  ## Modules
-   ### Setting load order.
-
-The module load order can be changed via the `LOAD` and `NO_LOAD` configuration settings.
-These should both represent lists.
-
-If `LOAD` is an empty list, all modules in `modules/` will be selected for loading by default.
-
-If `NO_LOAD` is not present or is an empty list, all modules selected for loading will be loaded.
-
-If a module is in both `LOAD` and `NO_LOAD`, the module will not be loaded - `NO_LOAD` takes priority.
-
-   ### Creating your own modules.
-
-Creating a module has been simplified as much as possible - but do not hesitate to suggest further simplification.
-
-All that is needed is that your .py file is in the modules folder.
-
-To add commands, make sure to import the dispatcher via
-
-`from SaitamaRobot import dispatcher`.
-
-You can then add commands using the usual
-
-`dispatcher.add_handler()`.
-
-Assigning the `__help__` variable to a string describing this modules' available
-commands will allow the bot to load it and add the documentation for
-your module to the `/help` command. Setting the `__mod_name__` variable will also allow you to use a nicer, user-friendly name for a module.
-
-The `__migrate__()` function is used for migrating chats - when a chat is upgraded to a supergroup, the ID changes, so 
-it is necessary to migrate it in the DB.
-
-The `__stats__()` function is for retrieving module statistics, eg number of users, number of chats. This is accessed 
-through the `/stats` command, which is only available to the bot owner.
-
-## Starting the bot.
-
-Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
-
-`python3 -m SaitamaRobot`
-
-You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
-Make sure to edit the start and restart bats to your needs. 
-Note: the restart bat requires that User account control be disabled.
-
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Akatsuki Organization](https://t.me/PainRobotSupport)
-## How to setup on Heroku 
-For starters click on this button 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PAINBOI2008/PainRobot.git) 
-
+</details>
 
 ## Credits
 The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
