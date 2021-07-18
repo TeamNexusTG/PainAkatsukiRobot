@@ -69,7 +69,7 @@ RUN git clone -b Railway-Shiken https://github.com/PAINBOI2008/SaitamaRobot /roo
 WORKDIR /root/SaitamaRobot
 
 #Copy config file to /root/SaitamaRobot/SaitamaRobot
-COPY ./SaitamaRobot/sample_config.py ./SaitamaRobot/config.py* /root/SaitamaRobot/SaitamaRobot/
+COPY ./SaitamaRobot/sample_config.py ./SaitamaRobot/config.py* /root/PainRobot/SaitamaRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
