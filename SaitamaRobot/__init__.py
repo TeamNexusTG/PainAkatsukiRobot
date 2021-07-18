@@ -158,6 +158,7 @@ else:
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
     DEL_CMDS = Config.DEL_CMDS
+    REDIS_URL = Config.REDIS_URL
     STRICT_GBAN = Config.STRICT_GBAN
     WORKERS = Config.WORKERS
     BAN_STICKER = Config.BAN_STICKER
@@ -182,7 +183,7 @@ else:
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 
-REDIS = StrictRedis.from_url(REDIS_URL,decode_responses=True)
+REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
 try:
 
