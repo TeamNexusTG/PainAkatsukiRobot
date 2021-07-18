@@ -60,6 +60,7 @@ class Config(object):
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
     TEMP_DOWNLOAD_DIRECTORY = 'dunno'
+    REDIS_URL = 'dunno'
 
 class Production(Config):
     LOGGER = True
