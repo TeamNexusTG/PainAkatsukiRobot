@@ -1,5 +1,5 @@
 # We're using Debian Slim Buster image
-FROM python:3.9.6-slim-buster
+FROM python:3.9.6-windowsservercore-ltsc2016
 
 ENV PIP_NO_CACHE_DIR 1
 
@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/SaitamaRobot
-RUN git clone -b shikenno https://github.com/PAINBOI2008/SaitamaRobot /root/SaitamaRobot
-WORKDIR /root/SaitamaRobot
+# Copy Python Requirements to /root/PainRobot
+RUN git clone -b Railway https://github.com/PAINBOI2008/PainRobot /root/PainRobot
+WORKDIR /root/PainRobot
 
-#Copy config file to /root/SaitamaRobot/SaitamaRobot
+#Copy config file to /root/PainRobot/SaitamaRobot
 COPY ./SaitamaRobot/sample_config.py ./SaitamaRobot/config.py* /root/PainRobot/SaitamaRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
