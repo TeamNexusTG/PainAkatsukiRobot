@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/SaitamaRobot
-RUN git clone -b Railway https://github.com/PAINBOI2008/SaitamaRobot /root/SaitamaRobot
+RUN git clone -b Railway-Shiken https://github.com/PAINBOI2008/SaitamaRobot /root/SaitamaRobot
 WORKDIR /root/SaitamaRobot
 
 #Copy config file to /root/SaitamaRobot/SaitamaRobot
